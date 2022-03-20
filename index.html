@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Lista de filmes</title>
+</head>
+<body>
+
+  <main>
+
+    <div class="form-container">
+
+      <div>
+        <h1>Filmes 🎬</h1>
+        <p>Cadastre os filmes que deseja assitir</p>
+      </div>
+      
+      <form class="form-group">
+
+				<div class="form-group">
+					<input class="form-control" type="text" id="title" placeholder="Insert title" formControlName="username">
+					<label class="form-label" for="title">Título</label>
+				</div>
+
+        <div class="two-colums-container">
+          <div class="form-group columns">
+            <input class="form-control" type="text" id="category" placeholder="Insert the category" formControlName="username">
+            <label class="form-label" for="category">Categoria</label>
+          </div>
+  
+          <div class="form-group columns">
+            <input class="form-control" type="number" id="release" placeholder="Insert to release year" formControlName="username">
+            <label class="form-label" for="release">Ano de lançamento</label>
+          </div>
+        </div>
+        
+
+        <div class="form-group">
+					<input class="form-control" type="text" id="image" placeholder="Insert image movie" formControlName="username">
+					<label class="form-label" for="image">URL da capa do filme</label>
+				</div>
+
+        <div class="form-actions">
+          <button>Cadastrar</button>
+        </div>
+
+      </form>
+
+    </div>
+    
+
+    <!-- <div class="cards-container">
+
+    </div> -->
+
+  </main>
+
+  <script src="./main.js"></script>
+</body>
+</html>
