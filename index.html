@@ -11,14 +11,14 @@
 
   <main>
 
-    <div class="form-container">
+    <section class="form-container">
 
       <div>
         <h1>Filmes 🎬</h1>
         <p>Cadastre os filmes que deseja assitir</p>
       </div>
       
-      <form class="form-group">
+      <form class="form-group" id="form">
 
 				<div class="form-group">
 					<input class="form-control" type="text" id="title" placeholder="Insert title" formControlName="username">
@@ -44,17 +44,36 @@
 				</div>
 
         <div class="form-actions">
-          <button>Cadastrar</button>
+          <button type="reset" id="reseteButton">Resetar</button>
+          <button type="submit" id="registerButton">Cadastrar</button>
         </div>
 
       </form>
 
-    </div>
-    
+    </section>
 
-    <!-- <div class="cards-container">
+    <section class="cards-container">
 
-    </div> -->
+      <h2>Lista de filmes</h2>
+
+      <div class="card-list">
+
+        <div class="card">
+          <div class="card-header">
+            <img src="https://media.fstatic.com/KWaNuR2a5L8OX44aKBw_dqg8phk=/268x386/smart/media/movies/covers/2011/06/ee609308f275029c9747fa7a50ac7f6c.jpg" alt="">
+          </div>
+          <div class="card-content">
+            <p>Sleeping Beauty</p>
+            <div>
+              <p><span>Categoria: </span><span>Drama</span></p>
+              <p><span>Ano de lançamento: </span><span>2009</span></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+
+    </section>
 
   </main>
 
